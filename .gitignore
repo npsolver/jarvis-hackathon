@@ -19,6 +19,12 @@
 .DS_Store
 *.pem
 
+# python / django
+backend/.venv
+__pycache__/
+*.pyc
+backend/staticfiles
+
 # debug
 npm-debug.log*
 yarn-debug.log*
